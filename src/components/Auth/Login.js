@@ -2,6 +2,8 @@ import React from "react";
 
 function Login(props) {
   const [login, setLogin] = React.useState(true);
+  const [name, setName] = React.useState("");
+  const [email, setEmail] = React.useState("");
 
   return (
     <div>

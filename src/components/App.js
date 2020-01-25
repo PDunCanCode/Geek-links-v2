@@ -1,3 +1,4 @@
+import 'augmented-ui/augmented.css';
 import React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import CreateLink from "./Link/CreateLink";
